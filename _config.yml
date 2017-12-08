@@ -1,3 +1,6 @@
 theme: jekyll-theme-cayman
 title: Mirror mirror on the wall, who's the smartest animal of them all?
 description: This is an analysis of all Facebook groups related to Animal Cognition
+github:
+  zip_url: https://example.com/foo.zip
+  tar_url: https://example.com/foo.tar.gz
