@@ -5,11 +5,8 @@
 The posts from 3 Facebook groups:
 
 >* Animal Cognition - 6 956 posts
-
 >* Animal Cognition, the Emotional and Intellectual Lives of Animals - 10 364 posts
-
 >* Anthrozoology - 7 442 posts
-
 >* 24 762 posts in total, 78.3 MB of pickles
 
 
