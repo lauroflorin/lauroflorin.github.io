@@ -45,7 +45,7 @@ __Animal Cognition:__
 |Animal      | Average Sentiment |
 | ------------- |:-------------:|
 |armadillo | 7.26|
-|pufferfish|puffer fish | 5.883266883132783|
+|pufferfish| 5.883266883132783|
 |nightingale | 5.871176470588235|
 |mustang | 5.844285714285715|
 |sperm whale | 5.839333333333332|
