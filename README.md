@@ -2,6 +2,7 @@
  We want to find out if humans have discovered yet that lab rats and dolphins are smarter than them so our question is: who’s the smartest animal in town? 
 
 * __The dataset__
+
 The posts from 3 Facebook groups:
 
 * Animal Cognition - 6 956 posts
@@ -14,6 +15,7 @@ The posts from 3 Facebook groups:
 
 
 * __Choice of dataset__
+
 We decided that these were the 3 most relevant Groups: Animal Cognition, Animal Emotional Lives, Anthrozoology. Since these facebook groups are all about science, more specifically the intelligence of animals, our assumption is that if a post on these groups mentions an animal, that animal must be smart.
 
 * __Goal for the end user's experience__
