@@ -32,6 +32,7 @@ Each downloaded post initially contains:
 * story
 * from
 * comments
+
        * reactions
        * from
        * comments
