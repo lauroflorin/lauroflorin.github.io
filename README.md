@@ -32,12 +32,12 @@ Each downloaded post initially contains:
 * story
 * from
 * comments
-> * reactions
-> * from
-> * comments
-> * created_time
-> * message
-> * id
+      > * reactions
+      > * from
+      > * comments
+      > * created_time
+      > * message
+      > * id
 * story_tags
 * type
 * description
