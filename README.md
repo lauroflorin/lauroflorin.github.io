@@ -57,3 +57,6 @@ Upon cleaning and preprocessing, we added some other 'fields' to each post:
 * __sentiment__: the sentiment of the post
 * __text_tokens_stemmed__: stems of all the words in the post's text
 * __date_time__: the date and time when the post was created, converted in _datetime_ format
+
+
+<span class="credits right"><a class="tar_download_link" href="https://github.com/JW0914/Wikis/tarball/master">tar</a>   |   <a class="zip_download_link" href="https://github.com/JW0914/Wikis/zipball/master">zip</a></span>
