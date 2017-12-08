@@ -1,38 +1,56 @@
-## Welcome to GitHub Pages
+# Motivation
+> We want to find out if humans have found out yet that lab rats and dolphins are smarter than them so our question is: who’s the smartest animal in town? 
 
-You can use the [editor on GitHub](https://github.com/lauroflorin/lauroflorin.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+* __The dataset__
+The posts from 3 Facebook groups:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+>* Animal Cognition - 6 956 posts
 
-### Markdown
+>* Animal Cognition, the Emotional and Intellectual Lives of Animals - 10 364 posts
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+>* Anthrozoology - 7 442 posts
 
-```markdown
-Syntax highlighted code block
+>* 24 762 posts in total, 78.3 MB of pickles
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+* __Choice of dataset__
+> We decided that these were the 3 most relevant Groups: Animal Cognition, Animal Emotional Lives, Anthrozoology. Since these facebook groups are all about science, more specifically the intelligence of animals, our assumption is that if a post on these groups mentions an animal, that animal must be smart.
 
-1. Numbered
-2. List
+* __Goal for the end user's experience__
+>
 
-**Bold** and _Italic_ and `Code` text
+# Basic stats about the dataset
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Each downloaded post initially contains:
 
-### Jekyll Themes
+>* reactions
+>* attachments
+>* shares
+>* created_time
+>* message
+>* story
+>* from
+>* comments
+>> * reactions
+>> * from
+>> * comments
+>> * created_time
+>> * message
+>> * id
+>* story_tags
+>* type
+>* description
+>* link
+>* name
+>* sharedposts
+>* updated_time
+>* caption
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lauroflorin/lauroflorin.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-testedit
+Upon cleaning and preprocessing, we added some other 'fields' to each post:
+>* __animals_detected__: animals which were mentioned in the post, detected with RegEx, from a list of all animals from Wikipedia
+>* __text_tokens__: all the tokenized text from description, comments, message, caption
+>* __animals_subject__: the animal that the post is about
+>* __sentiment__: the sentiment of the post
+>* __text_tokens_stemmed__: stems of all the words in the post's text
+>* __date_time__: the date and time when the post was created, converted in _datetime_ format
