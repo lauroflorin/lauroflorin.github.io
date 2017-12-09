@@ -194,6 +194,68 @@ When looking at the last 20 animals in the happines ranks, we notice that they a
 * We have found one person who was in the top members in a group and three new persons, which may suggest that most people are only active in one group of their choice.
 
 
+# Most liked animal in each group and in all groups
+
+* We counted the reactions to the posts of which the animals were subject, to determine which are the most popular animals in each group:
+
+__Top 10 animals__
+
+|Animal Cognition |
+|-------------------------------------------|                                                                                            |dog|
+|bird|
+|cat|
+|chimpanzee|
+|elephant|
+|crow|
+|monkey|
+|dolphin|
+|fish|
+|parrot|                           
+                                                                               
+                                                                                                                                                            
+|Animal Cognition and Emotional Intelligence|
+|-------------------------------------------|                                                                          
+|dog|
+|elephant|
+|whale|
+|bird|
+|horse|
+|cat|
+|dolphin|
+|cattle|
+|bear|
+|fish|
+                                                                               
+  
+  
+  
+|Anthrozoology|
+|-------------|
+|dog|
+|elephant|
+|bird|
+|cat|
+|horse|
+|wolf|
+|chimpanzee|
+|bear|
+|whale|
+|fish|
+
+                                                                               
+|All 3 groups|
+|----------------|
+|dog|
+|elephant|
+|bird|
+|cat|
+|whale|
+|horse|
+|chimpanzee|
+|dolphin|
+|fish|
+|bear                                                                                     
+                                                                               
+                                                                               
+                                                                               
 <span class="credits right"><a class="tar_download_link" href="https://github.com/JW0914/Wikis/tarball/master">tar</a>   |   <a class="zip_download_link" href="https://github.com/JW0914/Wikis/zipball/master">zip</a></span>
-
-
