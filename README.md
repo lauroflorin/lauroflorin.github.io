@@ -40,26 +40,28 @@ Also, Wikipedia was mined for a list of animals by common name. This list was ch
 # Network Analysis
 The main network is a multipartite graph made of 3 types of nodes: users, posts and animals. 
 * Nodes:
- * Members by ID
- * Posts by ID with post data as attribute
- * Animals by name
+- Group members by ID
+- Posts by ID with post data as attribute
+- Animals by name
 * Edges:
- * Members - posts: if a member posted/liked/commented on the post (with post/like/comment as edge attribute)
- * Posts - animals: if the animal is the subject of the post
+ - Members - posts: if a member posted/liked/commented on the post (with post/like/comment as edge attribute)
+ - Posts - animals: if the animal is the subject of the post
+ 
  ![alt text](images/graph.png)
 
  We can do a preliminary betweenness centrality analysis to see which nodes are central in terms of the shortest path between the nodes. After that, we will project the animal subgraph and analyze it more in depth.
-|Node|Betweenness Centrality
-|user_1322360307909727 |0.160884981514
-|user_10216027383903846| 0.139725685894
-|user_10155670551195985| 0.0837083637737
-|user_10214955589106892| 0.0575954930295
-|user_1720034408041981 |0.0510354890295
-|animal_dog | 0.0505594877606
-|user_904099763117069 | 0.0380355611004
-|user_10155814262253187 |0.0351279705888
-|user_10155957749097509 | 0.0264948992577
-|user_10213805281742736 | 0.0260411898794
+|Node|Betweenness Centrality|
+|----|----------------------|
+|user_1322360307909727 |0.160884981514|
+|user_10216027383903846| 0.139725685894|
+|user_10155670551195985| 0.0837083637737|
+|user_10214955589106892| 0.0575954930295|
+|user_1720034408041981 |0.0510354890295|
+|animal_dog | 0.0505594877606|
+|user_904099763117069 | 0.0380355611004|
+|user_10155814262253187 |0.0351279705888|
+|user_10155957749097509 | 0.0264948992577|
+|user_10213805281742736 | 0.0260411898794|
 
 Only 1 animal node is in top 10 betweenness centrality, the rest are users. This means that there are a few users who post many times about different animals. Also, this indicates that dogs are special in the graph (as we will see further on, they are also the most liked and talked about animal)
 ### Project the animal subgraph to analyze it in more depth
@@ -71,28 +73,28 @@ This new graph reflects similarities between the animals in the sense that linke
  ![alt text](images/Degree_distr_loglog.png)
 The animal subgraph follows a powerlaw degree distribution, like many networks in nature, meaning that most animals have low degrees and a few animals have high degrees. Let's now look at the top 20 most connected animals. This is equivalent with our initial definition of "smartest animals in town".
 ## Top 20 most connected animals
-|Animal	| Degree
-|--------------|
-|bird|	235
-|dog|	229
-|cat	|222
-|fish	|197
-|dolphin	|179
-|primate	|176
-|fly	|168
-|chimpanzee|	165
-|whale	|162
-|elephant	|160
-|	parrot|	156
-|	crow	|155
-|	wolf|	154
-|	bear|	153
-|	cow|	146
-|	ape	|145
-|	mouse|	145
-|	monkey	|142
-|	rat	|141
-|	lion	|132
+|Animal	| Degree|
+|-------|------|
+|bird|	235|
+|dog|	229|
+|cat	|222|
+|fish	|197|
+|dolphin	|179|
+|primate	|176|
+|fly	|168|
+|chimpanzee|	165|
+|whale	|162|
+|elephant	|160|
+|	parrot|	156|
+|	crow	|155|
+|	wolf|	154|
+|	bear|	153|
+|	cow|	146|
+|	ape	|145|
+|	mouse|	145|
+|	monkey	|142|
+|	rat	|141|
+|	lion	|132|
 
 And there we have it! Dolphins are there, so are rats, mice, whales, crows, in direct correlation with complexity of behavior. This indicates that our approach is correct. What was unexpected were flies and fish (could be since they're both verbs and nouns), and birds and dogs topping the top. A few of these animals could be explained by our bias towards our pets.
 
@@ -102,22 +104,22 @@ Although we have the top20 list, let's delve deeper into the analysis and see wh
 ## Community detection and finding animal families
 For this we have used the Python Louvain algorithm implementation of community detection. The algorithm found the following communities:
 
-* Community 0:
+* **Community 0**:
 peacock, cobra, antelope, rattlesnake, cougar, pufferfish|puffer fish, flamingo, peafowl, jaguar, snow leopard, puma, capybara, whippet, baboon, great white shark, mule, bee, orangutan, giant squid, turkey, crab, komodo dragon, tiger, wildcat, mountain goat, cat, shark, pony, squid, junglefowl, right whale, catfish, moose, unicorn, phalangeriformes|possum, hermit crab, wolf|wolves, okapi, hedgehog, cardinal|cardinal, aphid, jackal, panthera|panther, fennec fox|fennec, asian black bear, vulture, manatee, caterpillar, giraffe, flea, clam, dingo, sockeye salmon, hare, spider, lobster, mollusk, mustang, dinosaur, mantis|praying mantis, wolverine, cougar|puma, shrimp, sawfish, gopher|gopher, coral, dog|huski|dachshund|canine, flycatcher, horse, opossum, geococcyx|roadrunner, yak, serval, penguin, haddock, cicada, black panther, hornet, hammerhead shark, turkey|turkey, portuguese man o' war, tick, tapir, tiger shark, pointer|english pointer, barracuda, eel, 
 
-* Community 1:
+* **Community 1**:
 pheasant, pigeon, corvids, nightingale, cockatoo, roundworm, grasshopper, sturgeon, land snail, tarantula, bird, ibis, cuckoo, peregrine falcon, wallaby, swan, duck, viperidae|viper, bumblebee, planarian, worm, warbler, thrush|thrush, rooster, mockingbird, beaver, quail, woodpecker, zebra finch, magpie, elephant, snail, hawk, dove, boa constrictor|constrictor, snake, falcon, boidae|boa, gorilla|silverback, goose, zebra, grebe, lark, carp, mite, albatross, louse, ostrich, octopus, gazelle, wasp, rook|rook, koi, stork, crow, hummingbird, cockatiel, kiwi, sparrow, fowl, gecko, koala, finch, toad, snipe, parakeet, frog|bullfrog, 
 
-* Community 2:
+* **Community 2**:
 crocodile, condor, owl, seal, badger|badger, wildebeest, elephant seal, humpback whale, raccoon, weasel, alligator, coyote, egret, cheetah, leopard, jellyfish, calves, vole, raven, grouse, red fox, mouse|mice, reptile, bobcat, marten, prairie dog, grizzly bear, lynx, mink, marmot, ant, panda, polar bear, hyena, 
 
-* Community 3:
+* **Community 3**:
 hyrax, marsupial, bear, bat, red squirrel, tasmanian devil, bison, orca, hippocampus|seahorse, lion, mole|mole, mosquito, chipmunk, stoat, squirrel, brown bear, bull, krill, bald eagle, otter, bison|american buffalo, cattle|cow|calves, coregonus|whitefish, vampire bat, salamander, megabat|fruit bat, crayfish, macaque, earthworm, wren, rodent, salmon, mongoose, bison|buffalo, american, bedbug, chickadee, red deer|elk, walrus, coypu, hippopotamus, giant panda, booby, cockroach, shrew, sea lion, ox, porpoise, meerkat, american black bear, guppy, whale, dung beetle, african wild dog, pinniped, pilot whale, centipede, butterfly, reindeer, scorpion, water buffalo, caribou, 
 
-Community 4:
+* **Community 4**:
 chicken, antlion, sloth, dragonfly, whooping crane, chameleon, crane|crane, ferret, llama, kangaroo, goldfish, swift, tortoise, hamster, sheep|ram|lamb, lemur, boar, macaw, pike|pike, goat|chamoix, ladybug, fly, dodo, lizard, pythonidae|python, wild boar, camel, rabbit|bunny, iguana, kangaroo rat, parrot, turtle, fox, monitor lizard, eagle, cattle, loon, asp|asp, red deer, toucan, golden eagle, donkey, guinea pig, anaconda, deer, pig, rat, cricket|cricket, skink, gila monster, skunk, locust, 
 
-* Community 5:
+* **Community 5**:
 perch, jay, gull, minnow, porcupine, sea slug, canides, vaquita, bass|bass, cephalopod, red panda, termite, swallow, canid, ape, barnacle, african elephant, dolphin, beluga, tarsier, loris, primate, rainbow trout, moth, cod, tuna, blue whale, dragon, common blackbird|blackbird, mallard, spider monkey, heron, rajiformes|ray, sole|sole, lemming, marmoset, bonobo, beetle, neanderthal, gibbon, stingray, tree frog, trout, slug, lamprey, hominids, monkey, rhinoceros|rhino, fish, starfish, blue jay, bullfrog, rainbow trout|steelhead trout, arthropod|bug, titi, batoidea|ray, wombat, stink bug, manta ray, sperm whale, amphibian, chimpanzee|chimp
 
 Although only 5 communities are found, so no hope for a proper biological classification in families, we can observe some interesting patterns.
@@ -131,21 +133,31 @@ At the same time, an exercise left for the future would be to investigate subcom
 
 # How do animals differ from each other? TF-IDF and Wordclouds!
 We have taken the top 20 smartest animals and computed their TF-IDF based on their posts' text. Here're the Wordclouds!
-![alt text](images/dolphin.png)
+![alt text](images/parrot.png) ![alt text](images/dolphin.png)
+![alt text](images/fish.png) ![alt text](images/fly.png)
+![alt text](images/rat.png) ![alt text](images/elephant.png)
+![alt text](images/crow.png) ![alt text](images/whale.png)
+![alt text](images/ape.png) ![alt text](images/cat.png)
+![alt text](images/cattle.png) ![alt text](images/bird.png)
+![alt text](images/dog.png) ![alt text](images/chimpanzee.png) ![alt text](images/lion.png)
+![alt text](images/mouse.png) ![alt text](images/wolf.png) ![alt text](images/primate.png) 
+![alt text](images/monkey.png) ![alt text](images/bear.png)
+
+
 
 Plenty of interesting things appeared in the wordclouds ( tf-idf visualisations), some worth noting:
 * Almost all wordclouds had the words "human", "humans","people", indicating anthropocentrism, in the sense that we compare everything other animals do to us.
-* In Parrot, the names Alex and Pepperberg. Alex was an African Gray parrot that could answer and ask questions in English, count, and tell the difference between several types of objects. He was trained by Irene Pepperberg.
-* In Fly, it can be seen that the word is related to both the insect(and the other insect:fruit flies), but also to birds due to the double meaning of the word.
-* In Fish, "pain" is large due to people talking about whether fish feel pain.
-* In Rat, one of the highest ranking words is "empathy", indicating what lots of studies have shown. There's also "ethical", "scientists", "research", which are related to them being used in the science lab. However, as the Hitchhiker's Guide tells us, they are actually studying us, hence all the science related words.
-* In Elephant, one of the words is "mirror", which is related to elephants being able to pass the Mirror Test.
-* In Crows: "puzzle", "hook", "problem solving", "tool" all indicate their incredible problem solving skills
-* In Whale, interesting words are "convolutions", "culture", "neocortex", "sonar". In fact, dolphins have the largest neocortex in the whole animal kingdom (even larger than humans).
-* Ape has "Koko", a gorilla that was taught American sign language. She's still alive today.
+* In **Parrot**, the names Alex and Pepperberg. Alex was an African Gray parrot that could answer and ask questions in English, count, and tell the difference between several types of objects. He was trained by Irene Pepperberg.
+* In **Fly**, it can be seen that the word is related to both the insect(and the other insect:fruit flies), but also to birds due to the double meaning of the word.
+* In **Fish**, "pain" is large due to people talking about whether fish feel pain.
+* In **Rat**, one of the highest ranking words is "empathy", indicating what lots of studies have shown. There's also "ethical", "scientists", "research", which are related to them being used in the science lab. However, as the Hitchhiker's Guide tells us, they are actually studying us, hence all the science related words.
+* In **Elephant**, one of the words is "mirror", which is related to elephants being able to pass the Mirror Test.
+* In **Crows**: "puzzle", "hook", "problem solving", "tool" all indicate their incredible problem solving skills
+* In **Whale**, interesting words are "convolutions", "culture", "neocortex", "sonar". In fact, dolphins have the largest neocortex in the whole animal kingdom (even larger than humans).
+* **Ape** has "Koko", a gorilla that was taught American sign language. She's still alive today.
 
 
-# Collocations
+# Text Analysis - Collocations
 * We checked for collocations to see if there are similarities in how people discuss about the intelligence of other animals.
 * We also used in this analysis the method _collocations_ from the _nltk_ library applied to the tokenized text, concatenated from all posts.
 * Some of the collocations turned out to be expressions that are very relevant to animal cognition and the way people feel and talk about animals such as:
