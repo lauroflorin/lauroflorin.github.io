@@ -102,9 +102,9 @@ The animal subgraph follows a powerlaw degree distribution, like many networks i
 |rat	|141|
 |lion	|132|
 
-|Animal|lion|rat|monkey|mouse|ape|
-|------|---|---|---|---|---|
-|Degree|132|141|145|145|146|
+|Animal|lion|rat|monkey|mouse|ape|cow|bear|wolf|crow|parrot|elephant|whale|chimp|fly|primate|dolphin|fish|cat|dog|
+|------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|Degree|132|141|145|145|146|146|146|146|146|146|146|146|146|146|146|146|146|146|146|146|
 
 And there we have it! Dolphins are there, so are rats, mice, whales, crows, in direct correlation with complexity of behavior. This indicates that our approach is correct. What was unexpected were flies and fish (could be since they're both verbs and nouns), and birds and dogs topping the top. A few of these animals could be explained by our bias towards our pets.
 
