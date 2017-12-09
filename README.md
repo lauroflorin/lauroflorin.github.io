@@ -42,9 +42,18 @@ It turns out, people are optimistic when talking about animal intelligence, sinc
 * When performing sentiment analysis for each animal, these were the top animals:
 
 ![alt text](images/top_20_anthrozoology.png)
+
+
 ![alt text](images/top_20_animal_cog.png)
+
+
 ![alt text](images/top_20_animal_cog_and_em.png)
 
+# Lexical Dispersion
+
+* We sorted all the posts by date (from 2012 until present), then used the _dispersion\_plot_ method from the _nltk_ library, to see if there is a pattern in how the animals appear in posts throughout time. We checked for the first 50 animals most often encountered. The lexical dispersion plot looks very similar for the three groups and it is more or less constant, with some burstiness at some animals (for example _lion_ and _bear_ in the graph below).
+
+![alt text](images/lex_disp_animal_cog_and_em.png)
 
 <span class="credits right"><a class="tar_download_link" href="https://github.com/JW0914/Wikis/tarball/master">tar</a>   |   <a class="zip_download_link" href="https://github.com/JW0914/Wikis/zipball/master">zip</a></span>
 
