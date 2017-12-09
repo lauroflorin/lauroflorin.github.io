@@ -257,6 +257,14 @@ __Top 10 animals__
 |fish|
 |bear                                                                                     
                                                                                
-                                                                               
+* These results were also satisfactory, as these animals are indeed popular in humans' opinions.
+
+# Which group is more qualitative?
+
+
+* We evaluated this by looking at the type of posts, at how many of the posts have descriptions and how many words users add on each post.
+* The results weren't very conclusive, the groups have a very similar distribution of types of posts, most of the posts being links in each group.
+
+
                                                                                
 <span class="credits right"><a class="tar_download_link" href="https://github.com/JW0914/Wikis/tarball/master">tar</a>   |   <a class="zip_download_link" href="https://github.com/JW0914/Wikis/zipball/master">zip</a></span>
