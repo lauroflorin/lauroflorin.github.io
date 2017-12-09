@@ -189,64 +189,20 @@ When looking at the last 20 animals in the happines ranks, we notice that they a
 __Top 10 animals__
 
 
-|Animal Cognition||Anthrozoology||Animal Cognition and Emotional Intelligence|
-|----||------------||------------------------------|
-|dog||dog||dog|
-|bird||elephant|elephant|
-|cat||bird||whale|
-|chimpanzee||cat||bird|
-|elephant||horse|horse
-|crow||wolf||cat|
-|monkey||chimp|dolphin|
-|dolphin||bear||cattle/cow|
-|fish||whale||bear|
-|parrot||fish||fish|      
-                                                                               
-                                                                                                                                                            
-|Animal Cognition and Emotional Intelligence|
-|-------------------------------------------|                                                                          
-|dog|
-|elephant|
-|whale|
-|bird|
-|horse|
-|cat|
-|dolphin|
-|cattle|
-|bear|
-|fish|
-                                                                               
-  
-  
-  
-|Anthrozoology|
-|-------------|
-|dog|
-|elephant|
-|bird|
-|cat|
-|horse|
-|wolf|
-|chimpanzee|
-|bear|
-|whale|
-|fish|
+|Animal Cognition||Anthrozoology||Animal Cognition and Emotional Intelligence||All 3 groups|
+|----||------------||------------------------------||----------------|
+|dog||dog||dog||dog|
+|bird||elephant||elephant||elephant|
+|cat||bird||whale||bird|
+|chimpanzee||cat||bird||cat|
+|elephant||horse||horse||whale|
+|crow||wolf||cat||horse||horse|
+|monkey||chimp||dolphin||chimpanzee|
+|dolphin||bear||cattle/cow||dolphin|
+|fish||whale||bear||fish|
+|parrot||fish||fish||bear|                                                                                           
 
-                                                                               
-|All 3 groups|
-|----------------|
-|dog|
-|elephant|
-|bird|
-|cat|
-|whale|
-|horse|
-|chimpanzee|
-|dolphin|
-|fish|
-|bear                                                                                     
-                                                                               
-* These results were also satisfactory, as these animals are indeed popular in humans' opinions.
+* These results are somewhat satisfactory, as these animals are either smart or really popular in humans' opinions.
 
 # Which group is more qualitative?
 
