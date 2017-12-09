@@ -1,5 +1,5 @@
 <iframe width="854" height="480" src="https://www.youtube.com/embed/tyh07c5I7eU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-<span class="credits right"><a class="tar_download_link" href="http://nbviewer.jupyter.org/urls/lauroflorin.github.io/Explainer_notebook.ipynb">View Explainer Notebook</a>   |   <a class="zip_download_link" href="./Explainer_notebook.ipynb">Download datasets(.zip)</a></span>
+<span class="credits right"><a class="tar_download_link" href="http://nbviewer.jupyter.org/urls/lauroflorin.github.io/Explainer_notebook.ipynb">View Explainer Notebook</a>   |   <a class="zip_download_link" href="https://drive.google.com/open?id=12LJdIPyeeYTZ0U-7ZODdFa417IctEwR0">Download datasets(.zip)</a></span>
 
 # Motivation
 We wanted to find out whether humans have realized that lab rats and dolphins are smarter than them as per Hitchhiker's Guide. So our question is: who’s the smartest animal in town? Our team decided that the best way to find out was to search the deep dark web of Facebook.
@@ -38,7 +38,47 @@ After using Facebook's API to download all the required materials, we ended up w
 
 Also, Wikipedia was mined for a list of animals by common name. This list was chosen because it seemed the most relevant, as people mention animals by their common name (as opposed to the scientific one) when posting about them on facebook.
 
+# Collocations
 
+* We checked for collocations to see if there are similarities in how people discuss about this subject, the intelligence of other animals.
+* We also used in this analysis the method _collocations_ from the _nltk_ library applied to the tokenized text, concatenated from all posts.
+* Some of the collocations turned out to be expressions that are very relevant to animal cognition and the way people feel and talk about animals such as:
+
+   * non human
+   * first time
+   * facial expressions
+   * animal cognition 
+   * decision making
+   * problem solving
+   * self awareness
+   * great apes
+   * current biology
+   * nonhuman animals
+   * cognitive abilities
+   * mirror test
+   * nervous system
+   * feel pain
+   * animal behaviour
+   * best friend
+   * climate change
+   * wildlife service
+   * critically endangered
+   * good article
+   * animal rights
+   * intellectual lives
+
+* Some other types of collocations showed that a lot of people research what they are posting about and talk about relevant sources:
+
+   * scientist magazine
+   * paper published
+   * previously thought
+   * study finds
+   * scientific american
+   * state university
+   * peer reviewed
+    
+* Another thing we discovered was that in one of the groups, anthrozoology, there are a lot of Spanish speaking members, since a lot of the collocations are in spanish (los animales, perseguir lasl, las palabras etc.)
+  
 # Sentiment analysis
 
 * We performed sentiment analysis on the text in the posts, in order to get a feeling of how people perceive the different animals.
@@ -85,48 +125,7 @@ When looking at the last 20 animals in the happines ranks, we notice that they a
 
 ![alt text](images/lex_disp_animal_cog_and_em_ed.png)
 
-# Collocations
 
-* We checked for collocations to see if there are similarities in how people discuss about this subject, the intelligence of other animals.
-* We also used in this analysis the method _collocations_ from the _nltk_ library applied to the tokenized text, concatenated from all posts.
-* Some of the collocations turned out to be expressions that are very relevant to animal cognition and the way people feel and talk about animals such as:
-
-   * non human
-   * first time
-   * facial expressions
-   * animal cognition 
-   * decision making
-   * problem solving
-   * self awareness
-   * great apes
-   * current biology
-   * nonhuman animals
-   * cognitive abilities
-   * mirror test
-   * nervous system
-   * feel pain
-   * animal behaviour
-   * best friend
-   * climate change
-   * wildlife service
-   * critically endangered
-   * sea turtle
-   * good article
-   * animal rights
-   * intellectual lives
-
-* Some other types of collocations showed that a lot of people research what they are posting about and talk about relevant sources:
-
-   * scientist magazine
-   * paper published
-   * previously thought
-   * study finds
-   * scientific american
-   * state university
-   * peer reviewed
-    
-* Another thing we discovered was that in one of the groups, anthrozoology, there are a lot of Spanish speaking members, since a lot of the collocations are in spanish (los animales, perseguir lasl, las palabras etc.)
-  
   # Top posters in each group
   
   * We checked for the members with the most posts, reactions and overall interactions (posts + reactions + comments) to get more info on how the people in the group behave.
@@ -196,11 +195,12 @@ __Top 10 animals__
 |cat||bird||whale||bird|
 |chimpanzee||cat||bird||cat|
 |elephant||horse||horse||whale|
-|crow||wolf||cat||horse||horse|
+|crow||wolf||cat||horse|
 |monkey||chimp||dolphin||chimpanzee|
 |dolphin||bear||cattle/cow||dolphin|
 |fish||whale||bear||fish|
 |parrot||fish||fish||bear|                                                                                           
+
 
 * These results are somewhat satisfactory, as these animals are either smart or really popular in humans' opinions.
 
