@@ -325,4 +325,4 @@ __Top 10 animals__
 
 
 The results are satisfactory, since they are close to the results obtained by analyzing the degree centrality. These animals are either really popular with humans(e.g. pets), or have complex behaviors in the wild (many have passed the Mirror Test).                                                                              
-
+<iframe src="https://albumizr.com/a/-KNG" scrolling="no" frameborder="0" allowfullscreen width="700" height="400"></iframe>
