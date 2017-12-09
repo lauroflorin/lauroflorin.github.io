@@ -148,7 +148,13 @@ We have taken the top 20 smartest animals and computed their TF-IDF based on the
 ![alt text](images/dog.png) ![alt text](images/chimpanzee.png) ![alt text](images/lion.png)
 ![alt text](images/mouse.png) ![alt text](images/wolf.png) ![alt text](images/primate.png) 
 ![alt text](images/monkey.png) ![alt text](images/bear.png)
-<--<img src="images/monkey.png" width="425"/> <img src="images/bear.png" width="425"/> -->
+
+
+<img src="images/monkey.png" width="425"/> <img src="images/bear.png" width="425"/>
+
+
+<img src="images/monkey.png" width="200" height="200" /> <img src="images/bear.png" width="200" height="200" />
+
 
 
 Plenty of interesting things appeared in the wordclouds ( tf-idf visualisations), some worth noting:
