@@ -1,41 +1,41 @@
 <iframe width="854" height="480" src="https://www.youtube.com/embed/tyh07c5I7eU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
 # Motivation
- We want to find out if humans have discovered yet that lab rats and dolphins are smarter than them so our question is: who’s the smartest animal in town? 
+We want to find out if humans have discovered yet that lab rats and dolphins are smarter than them so our question is: who’s the smartest animal in town? Our team decided that the best way to find out was to search the dark deep web of Facebook.
 
 
-* __Choice of dataset__
+ __Choice of dataset__
 
-We decided that these were the 3 most relevant Groups: Animal Cognition, Anthrozoology and Animal Cognition, the Emotional and Intellectual Lives of Animals. Since these facebook groups are all about science, more specifically the intelligence of animals, our assumption is that if a post on these groups mentions an animal, that animal must be smart.
+Upon a search for the most relevant Facebook groups, 3 stood out (most members, >5000): Animal Cognition, Anthrozoology and Animal Cognition, the Emotional and Intellectual Lives of Animals. Our assumption is that everything posted on these groups is scientific and related to the intelligence of animals (due to the groups' names), so therefore if a post on these groups mentions an animal, that animal must be smart. 
 
-* __Goal for the end user's experience__
->
 
 # Basic stats about the dataset
 
-The posts from 3 Facebook groups:
+After using Facebook's API to download all the required materials, we ended up with the following datasets:
 
 * __Animal Cognition:__
-- 6 956 posts
-- 4726 members
-- 9779 comments
-- 11887 mentioned animals
+    - 6 956 posts
+    - 4726 members
+    - 9779 comments
+    - 11887 mentioned animals
+
 
 * __Animal Cognition, the Emotional and Intellectual Lives of Animals:__
-- 10 364 posts
-- 4825 members
-- 7928 comments
-- 15316 mentioned animals
+    - 10 364 posts
+    - 4825 members
+    - 7928 comments
+    - 15316 mentioned animals
+
 
 * __Anthrozoology:__
-- 7 442 posts
-- 3200 members
-- 13750 comments
-- 9331 mentioned animals
+    - 7 442 posts
+    - 3200 members
+    - 13750 comments
+    - 9331 mentioned animals
 
 * 24 762 posts in total, 78.3 MB of pickles
 
-* Wikipedia was mined for a list of all animals by common name. This list was chosen because it seemed the most relevant, as people mention animals by their common name (as opposed to the scientific one) when posting about them on facebook.
+Also, Wikipedia was mined for a list of animals by common name. This list was chosen because it seemed the most relevant, as people mention animals by their common name (as opposed to the scientific one) when posting about them on facebook.
 
 
 # Sentiment analysis
@@ -124,20 +124,7 @@ When looking at the last 20 animals in the happines ranks, we notice that they a
    * state university
    * peer reviewed
     
-* Another thing we discovered was that in one of the groups, anthrozoology, there are a lot of Spanish speaking members, since a lot of the collocations are in spanish:
-
-   * los animales
-   * perseguir las
-   * las palabras
-   * las sombras
-   * arte zoolog
-   * por mafa
-   * genes las
-   * multidisciplinar docente
-   * diversas exposiciones
-   * ense anzas
-   * sobre arte
-    
+* Another thing we discovered was that in one of the groups, anthrozoology, there are a lot of Spanish speaking members, since a lot of the collocations are in spanish (los animales, perseguir lasl, las palabras etc.)
   
   # Top posters in each group
   
