@@ -15,13 +15,27 @@ We decided that these were the 3 most relevant Groups: Animal Cognition, Anthroz
 
 The posts from 3 Facebook groups:
 
-* Animal Cognition - 6 956 posts
+* Animal Cognition:
+- 6 956 posts
+- 4726 members
+- 9779 comments
+- 11887 mentioned animals
 
-* Animal Cognition, the Emotional and Intellectual Lives of Animals - 10 364 posts
+* Animal Cognition, the Emotional and Intellectual Lives of Animals:
+- 10 364 posts
+- 4825 members
+- 7928 comments
+- 15316 mentioned animals
 
-* Anthrozoology - 7 442 posts
+* Anthrozoology:
+- 7 442 posts
+- 3200 members
+- 13750 comments
+- 9331 mentioned animals
 
 * 24 762 posts in total, 78.3 MB of pickles
+
+* Wikipedia was mined for a list of all animals by common name. This list was chosen because it seemed the most relevant, as people mention animals by their common name (as opposed to the scientific one) when posting about them on facebook.
 
 
 # Sentiment analysis
@@ -46,8 +60,17 @@ It turns out, people are optimistic when talking about animal intelligence, sinc
 
 ![alt text](images/top_20_animal_cog.png)
 
+When looking at the last 20 animals in the happines ranks, we notice that they aren't very far from the top ones. From this we drew the conclusion that when people post or talk about an animal in these groups, it is mostly positive things.
 
 ![alt text](images/top_20_animal_cog_and_em.png)
+
+![alt text](images/last_20_anthrozoology.png)
+
+
+![alt text](images/last_20_animal_cog.png)
+
+
+![alt text](images/last_20_animal_cog_and_em.png)
 
 # Lexical Dispersion
 
