@@ -1,5 +1,5 @@
 <iframe width="854" height="480" src="https://www.youtube.com/embed/tyh07c5I7eU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-<span class="credits right"><a class="tar_download_link" href="http://nbviewer.jupyter.org/urls/lauroflorin.github.io/Explainer_notebook.ipynb">View Explainer Notebook</a>   |   <a class="zip_download_link" href="https://drive.google.com/open?id=12LJdIPyeeYTZ0U-7ZODdFa417IctEwR0">Download datasets(.zip)</a></span>
+<span class="credits right"><a class="tar_download_link" href="http://nbviewer.jupyter.org/urls/lauroflorin.github.io/Explainer_notebook.ipynb">View Explainer Notebook</a>   |   <a class="zip_download_link" href="https://drive.google.com/uc?export=download&confirm=PCfU&id=12LJdIPyeeYTZ0U-7ZODdFa417IctEwR0">Download datasets(.zip)</a></span>
 
 # Motivation
 We wanted to find out whether humans have realized that lab rats and dolphins are smarter than them as per Hitchhiker's Guide. So our question is: who’s the smartest animal in town? Our team decided that the best way to find out was to search the deep dark web of Facebook.
@@ -7,7 +7,7 @@ We wanted to find out whether humans have realized that lab rats and dolphins ar
 
  __Choice of dataset__
 
-Upon a search for the most relevant Facebook groups, 3 stood out (most members, >5000): Animal Cognition, Anthrozoology and Animal Cognition, the Emotional and Intellectual Lives of Animals. Our assumption is that everything posted on these groups is scientific and related to the intelligence of animals (due to the groups' names), so therefore if a post on these groups mentions an animal, that animal must be smart. 
+Upon a search for the most relevant Facebook groups, 3 stood out (they had the most members, >5000): Animal Cognition, Anthrozoology and Animal Cognition, the Emotional and Intellectual Lives of Animals. Our assumption is that everything posted on these groups is scientific and related to the intelligence of animals (due to the groups' names), so therefore if a post on these groups mentions an animal, that animal must be smart. 
 
 
 # Basic stats about the dataset
