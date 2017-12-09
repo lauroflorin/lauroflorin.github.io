@@ -167,38 +167,38 @@ Plenty of interesting things appeared in the wordclouds ( tf-idf visualisations)
 * We also used in this analysis the method _collocations_ from the _nltk_ library applied to the tokenized text, concatenated from all posts.
 * Some of the collocations turned out to be expressions that are very relevant to animal cognition and the way people feel and talk about animals such as:
 
-   * *non human
-   * first time
-   * facial expressions
-   * animal cognition 
-   * decision making
-   * problem solving
-   * self awareness
-   * great apes
-   * current biology
-   * nonhuman animals
-   * cognitive abilities
-   * mirror test
-   * nervous system
-   * feel pain
-   * animal behaviour
-   * best friend
-   * climate change
-   * wildlife service
-   * critically endangered
-   * good article
-   * animal rights
-   * intellectual lives*
+   * _non human_
+   * _facial expressions_
+   * _animal cognition _
+   * _decision making_
+   * _problem solving_
+   * _first time_
+   * _self awareness_
+   * _great apes_
+   * _current biology_
+   * _nonhuman animals_
+   * _cognitive abilities_
+   * _mirror test_
+   * _nervous system_
+   * _feel pain_
+   * _animal behaviour_
+   * _best friend_
+   * _climate change_
+   * _wildlife service_
+   * _critically endangered_
+   * _good article_
+   * _animal rights_
+   * _intellectual lives__
 
 * Some other types of collocations showed that a lot of people research what they are posting about and talk about relevant sources:
 
-   * *scientist magazine
+   * scientist magazine
    * paper published
    * previously thought
    * study finds
    * scientific american
    * state university
-   * peer reviewed*
+   * peer reviewed
     
 * Another thing we discovered was that in one of the groups, anthrozoology, there are a lot of Spanish speaking members, since a lot of the collocations are in spanish (los animales, perseguir lasl, las palabras etc.)
   
