@@ -200,8 +200,9 @@ When looking at the last 20 animals in the happines ranks, we notice that they a
 
 __Top 10 animals__
 
-|Animal Cognition |
-|-------------------------------------------|                                                                                            |dog|
+|Animal Cognition|
+|----|
+|dog|
 |bird|
 |cat|
 |chimpanzee|
