@@ -295,27 +295,18 @@ __Top 10 animals__
 
 
 |Animal Cognition||Anthrozoology||Animal Cognition and Emotional Intelligence||All 3 groups|
-|----||------------||------------------------------||----------------|
-|dog||dog||dog||dog|
-|bird||elephant||elephant||elephant|
-|cat||bird||whale||bird|
-|chimpanzee||cat||bird||cat|
-|elephant||horse||horse||whale|
-|crow||wolf||cat||horse|
-|monkey||chimp||dolphin||chimpanzee|
-|dolphin||bear||cattle/cow||dolphin|
-|fish||whale||bear||fish|
-|parrot||fish||fish||bear|                                                                                           
+|----|------------|------------------------------||----------------|
+|dog|dog||dog|dog|
+|bird|elephant|elephant||elephant|
+|cat|bird|whale||bird|
+|chimpanzee|cat|bird||cat|
+|elephant|horse|horse||whale|
+|crow|wolf|cat||horse|
+|monkey|chimp|dolphin||chimpanzee|
+|dolphin|bear|cow||dolphin|
+|fish|whale|bear||fish|
+|parrot|fish|fish||bear|                                                                                           
 
 
-* These results are somewhat satisfactory, as these animals are either smart or really popular in humans' opinions.
-
-# Which group is more qualitative?
-
-
-* We evaluated this by looking at the type of posts, at how many of the posts have descriptions and how many words users add on each post.
-* The results weren't very conclusive, the groups have a very similar distribution of types of posts, most of the posts being links in each group.
-
-
-                                                                               
+The results are satisfactory, since they are close to the results obtained by analyzing the degree centrality. These animals are either really popular with humans(e.g. pets), or have complex behaviors in the wild (many have passed the Mirror Test).                                                                              
 
