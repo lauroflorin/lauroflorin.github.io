@@ -1,8 +1,6 @@
 <iframe width="854" height="480" src="https://www.youtube.com/embed/tyh07c5I7eU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-<span class="credits right">
-<link rel="stylesheet" href="ism/css/my-slider.css"/>
-<script src="ism/js/ism-2.2.min.js"></script>
 
+<span class="credits right">
 <a class="tar_download_link" href="http://nbviewer.jupyter.org/urls/lauroflorin.github.io/Explainer_notebook%20(3).ipynb">View Explainer Notebook</a>   |   <a class="zip_download_link" href="https://drive.google.com/uc?export=download&confirm=PCfU&id=12LJdIPyeeYTZ0U-7ZODdFa417IctEwR0">Download datasets(.zip)</a></span>
 
 # Motivation
@@ -138,6 +136,11 @@ In the end, it appears that the communities found definitely show some patterns,
 At the same time, an exercise left for the future would be to investigate subcommunities for each of the main communities, which may split the animals into their biological families.
 
 # How do animals differ from each other? TF-IDF and Wordclouds!
+<section>
+    <img width="300" src="images/fish.png">
+    <img width="300" src="images/crow.png">
+</section>
+
 We have taken the top 20 smartest animals and computed their TF-IDF based on their posts' text. Here're the Wordclouds!
 ![alt text](images/parrot.png) ![alt text](images/dolphin.png)
 ![alt text](images/fish.png) ![alt text](images/fly.png)
@@ -149,11 +152,7 @@ We have taken the top 20 smartest animals and computed their TF-IDF based on the
 ![alt text](images/mouse.png) ![alt text](images/wolf.png) ![alt text](images/primate.png) 
 ![alt text](images/monkey.png) ![alt text](images/bear.png)
 
-
-<img src="images/monkey.png" width="425"/> <img src="images/bear.png" width="425"/>
-
-
-<img src="images/monkey.png" width="200" height="200" /> <img src="images/bear.png" width="200" height="200" />
+<img src="images/monkey.png" width="450" height="450" /> <img src="images/bear.png" width="450" height="450" />
 
 
 
