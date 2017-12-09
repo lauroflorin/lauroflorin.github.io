@@ -72,8 +72,10 @@ Since the main network is a multipartite graph, projecting the animals is equiva
 * The animals as nodes
 * Edges between two animals if in the multipartite graph the animals connect to the same post
 This new graph reflects similarities between the animals in the sense that linked animals were talked about in the same posts.
+
  ![alt text](images/Degree_distr_linear.png)
  ![alt text](images/Degree_distr_loglog.png)
+ 
 The animal subgraph follows a powerlaw degree distribution, like many networks in nature, meaning that most animals have low degrees and a few animals have high degrees. Let's now look at the top 20 most connected animals. This is equivalent with our initial definition of "smartest animals in town".
 ## Top 20 most connected animals
 
@@ -89,16 +91,20 @@ The animal subgraph follows a powerlaw degree distribution, like many networks i
 |chimpanzee|	165|
 |whale	|162|
 |elephant	|160|
-|	parrot|	156|
-|	crow	|155|
-|	wolf|	154|
-|	bear|	153|
-|	cow|	146|
-|	ape	|145|
-|	mouse|	145|
-|	monkey	|142|
-|	rat	|141|
-|	lion	|132|
+|parrot|	156|
+|crow	|155|
+|wolf|	154|
+|bear|	153|
+|cow|	146|
+|ape	|145|
+|mouse|	145|
+|monkey	|142|
+|rat	|141|
+|lion	|132|
+
+|Animal|lion|rat|monkey|mouse|ape|
+|------|---|---|---|---|---|
+|Degree|132|141|145|145|146|
 
 And there we have it! Dolphins are there, so are rats, mice, whales, crows, in direct correlation with complexity of behavior. This indicates that our approach is correct. What was unexpected were flies and fish (could be since they're both verbs and nouns), and birds and dogs topping the top. A few of these animals could be explained by our bias towards our pets.
 
@@ -136,10 +142,6 @@ In the end, it appears that the communities found definitely show some patterns,
 At the same time, an exercise left for the future would be to investigate subcommunities for each of the main communities, which may split the animals into their biological families.
 
 # How do animals differ from each other? TF-IDF and Wordclouds!
-<section>
-    <img width="300" src="images/fish.png">
-    <img width="300" src="images/crow.png">
-</section>
 
 We have taken the top 20 smartest animals and computed their TF-IDF based on their posts' text. Here're the Wordclouds!
 ![alt text](images/parrot.png) ![alt text](images/dolphin.png)
@@ -151,9 +153,6 @@ We have taken the top 20 smartest animals and computed their TF-IDF based on the
 ![alt text](images/dog.png) ![alt text](images/chimpanzee.png) ![alt text](images/lion.png)
 ![alt text](images/mouse.png) ![alt text](images/wolf.png) ![alt text](images/primate.png) 
 ![alt text](images/monkey.png) ![alt text](images/bear.png)
-
-<img src="images/monkey.png" width="450" height="450" /> <img src="images/bear.png" width="450" height="450" />
-
 
 
 Plenty of interesting things appeared in the wordclouds ( tf-idf visualisations), some worth noting:
