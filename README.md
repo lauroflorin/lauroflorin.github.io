@@ -1,7 +1,8 @@
 <iframe width="854" height="480" src="https://www.youtube.com/embed/tyh07c5I7eU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 <span class="credits right"><a class="tar_download_link" href="http://nbviewer.jupyter.org/urls/lauroflorin.github.io/Explainer_notebook.ipynb">View Explainer Notebook</a>   |   <a class="zip_download_link" href="./Explainer_notebook.ipynb">Download datasets(.zip)</a></span>
+
 # Motivation
-We want to find out if humans have discovered yet that lab rats and dolphins are smarter than them so our question is: who’s the smartest animal in town? Our team decided that the best way to find out was to search the dark deep web of Facebook.
+We wanted to find out whether humans have realized that lab rats and dolphins are smarter than them as per Hitchhiker's Guide. So our question is: who’s the smartest animal in town? Our team decided that the best way to find out was to search the deep dark web of Facebook.
 
 
  __Choice of dataset__
@@ -187,18 +188,19 @@ When looking at the last 20 animals in the happines ranks, we notice that they a
 
 __Top 10 animals__
 
-|Animal Cognition|
-|----|
-|dog|
-|bird|
-|cat|
-|chimpanzee|
-|elephant|
-|crow|
-|monkey|
-|dolphin|
-|fish|
-|parrot|                           
+
+|Animal Cognition||Anthrozoology||Animal Cognition and Emotional Intelligence|
+|----||------------||------------------------------|
+|dog||dog||dog|
+|bird||elephant|elephant|
+|cat||bird||whale|
+|chimpanzee||cat||bird|
+|elephant||horse|horse
+|crow||wolf||cat|
+|monkey||chimp|dolphin|
+|dolphin||bear||cattle/cow|
+|fish||whale||bear|
+|parrot||fish||fish|      
                                                                                
                                                                                                                                                             
 |Animal Cognition and Emotional Intelligence|
