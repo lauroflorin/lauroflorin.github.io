@@ -139,7 +139,60 @@ When looking at the last 20 animals in the happines ranks, we notice that they a
    * sobre arte
     
   
+  # Top posters in each group
   
+  * We checked for the members with the most posts, reactions and overall interactions (posts + reactions + comments) to get more info on how the people in the group behave.
+  
+  
+  __Animal Cognition:__
+  
+  
+  |    |Name                     | Number of comments| Number of posts| Number of Reactions| Total interactions
+  |----|----                     |--------------------|---------------|--------------------|--------------------|
+  |Most Posts|Robert Karl Stonjek|1120|3070|20|4210|
+  |Most Reactions|Dmitri Kaminiar|28|366|2886|3280|
+  |Most Comments|Robert Karl Stonjek|1120|3070|20|4210|
+  |Most Interactions|Robert Karl Stonjek|1120|3070|20|4210|
+  
+  * In this group there are 2 dominant members who take part in most of the interactions and discussions.
+
+  __Animal Cognition and Emotional Intelligence:__
+  
+  
+  |    |Name                     | Number of comments| Number of posts| Number of Reactions| Total interactions
+  |----|----                     |--------------------|---------------|--------------------|--------------------|
+  |Most Posts|Susan Freeman|5514|21555|4059|31128|
+  |Most Reactions|Susan Freeman|5514|21555|4059|31128|
+  |Most Comments|Susan Freeman|5514|21555|4059|31128|
+  |Most Interactions|Susan Freeman|5514|21555|4059|31128|
+  
+  * In this group we were surprised to see that there is only one person who does most of the posting, reacting and commenting.
+
+  __Anthrozoology:__
+  
+  
+  |    |Name                     | Number of comments| Number of posts| Number of Reactions| Total interactions
+  |----|----                     |--------------------|---------------|--------------------|--------------------|
+  |Most Posts|Manuel Fernandez Albores|270|1656|832|2758|
+  |Most Reactions|Gala Argent|930|344|2994|4268|
+  |Most Comments|Gala Argent|930|344|2994|4268|
+  |Most Interactions|Piers Locke|1178|1486|1642|4306|
+  
+* In this group, we weren't surprised to see that the top poster was _Manuel Fernandez Albores_, since most of the collocations we found when analysing the text were in Spanish and he has a Spanish-sounding name.
+
+# Top posters in all groups
+
+* We also did the intersection of the members between the three groups, to see if we find any of the winners from the previous categories, who are being active in more than one group:
+
+  |    |Name                     | Number of comments| Number of posts| Number of Reactions| Total interactions
+  |----|----                     |--------------------|---------------|--------------------|--------------------|
+  |Most Posts|Gala Argent|467|172|1744|2383|
+  |Most Reactions|LizDonguri Capaldi Capybara|268|155|3134|3557|
+  |Most Comments|Dennis Low|799|63|86|948|
+  |Most Interactions|LizDonguri Capaldi Capybara|268|155|3134|3557|
+ 
+* We have found one person who was in the top members in a group and three new persons, which may suggest that most people are only active in one group of their choice.
+
 
 <span class="credits right"><a class="tar_download_link" href="https://github.com/JW0914/Wikis/tarball/master">tar</a>   |   <a class="zip_download_link" href="https://github.com/JW0914/Wikis/zipball/master">zip</a></span>
 
