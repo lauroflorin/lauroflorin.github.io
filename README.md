@@ -27,7 +27,7 @@ The posts from 3 Facebook groups:
 # Sentiment analysis
 
 * We performed sentiment analysis on the text in the posts, in order to get a feeling of how people perceive the different animals.
-* For performing sentiment analysis we used the The LabMT 1.0. (_ ‘language assessment by Mechanical Turk 1.0’_) list, which was created with the use of Amazon Mechanical Turk, which is a crowdsourcing service that provides 'human intelligence'. The top 5000 most frequent words from 4 sources (Twitter, Google Books, music lyrics, and the New York Times) were merged in a set of 10 222 words. These words were rated by users of Amazon Mechanical Turk, based on their _average happiness_, __from 1 to 9. __
+* For performing sentiment analysis we used the The LabMT 1.0. (‘language assessment by Mechanical Turk 1.0’) list, which was created with the use of Amazon Mechanical Turk, which is a crowdsourcing service that provides 'human intelligence'. The top 5000 most frequent words from 4 sources (Twitter, Google Books, music lyrics, and the New York Times) were merged in a set of 10 222 words. These words were rated by users of Amazon Mechanical Turk, based on their _average happiness_, __from 1 to 9. __
  * By computing the average of all the words in all the posts in each group, we were able to determine the average sentiment of the 3 groups:
  
 | Group        | Average Sentiment |
