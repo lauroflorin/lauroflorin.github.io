@@ -51,9 +51,68 @@ It turns out, people are optimistic when talking about animal intelligence, sinc
 
 # Lexical Dispersion
 
-* We sorted all the posts by date (from 2012 until present), then used the _dispersion\_plot_ method from the _nltk_ library, to see if there is a pattern in how the animals appear in posts throughout time. We checked for the first 50 animals most often encountered. The lexical dispersion plot looks very similar for the three groups and it is more or less constant, with some burstiness at some animals (for example _lion_ and _bear_ in the graph below).
+* We were interested to see if there is a pattern in how the animals appear in posts throughout time.
+* We sorted all the posts by date (from 2012 until present), then used the _dispersion\_plot_ method from the _nltk_ library. We checked for the first 50 animals most often encountered in the stemmed and tokenized text from all posts.
+* The lexical dispersion plot looks very similar for the three groups and it is more or less constant, with some burstiness at some animals (for example  _bear_ and _lion_ in the graph below).
 
 ![alt text](images/lex_disp_animal_cog_and_em_ed.png)
+
+# Collocations
+
+* We checked for collocations to see if there are similarities in how people discuss about this subject, the intelligence of other animals.
+* We also used in this analysis the method _collocations_ from the _nltk_ library applied to the tokenized text, concatenated from all posts.
+* Some of the collocations turned out to be expressions that are very relevant to animal cognition and the way people feel and talk about animals such as:
+
+   * non human
+   * first time
+   * facial expressions
+   * animal cognition 
+   * decision making
+   * problem solving
+   * self awareness
+   * great apes
+   * current biology
+   * nonhuman animals
+   * cognitive abilities
+   * mirror test
+   * nervous system
+   * feel pain
+   * animal behaviour
+   * best friend
+   * climate change
+   * wildlife service
+   * critically endangered
+   * sea turtle
+   * good article
+   * animal rights
+   * intellectual lives
+
+* Some other types of collocations showed that a lot of people research what they are posting about and talk about relevant sources:
+
+   * scientist magazine
+   * paper published
+   * previously thought
+   * study finds
+   * scientific american
+   * state university
+   * peer reviewed
+    
+* Another thing we discovered was that in one of the groups, anthrozoology, there are a lot of Spanish speaking members, since a lot of the collocations are in spanish:
+
+   * los animales
+   * perseguir las
+   * las palabras
+   * las sombras
+   * arte zoolog
+   * por mafa
+   * genes las
+   * multidisciplinar docente
+   * diversas exposiciones
+   * ense anzas
+   * sobre arte
+   
+  
+  
 
 <span class="credits right"><a class="tar_download_link" href="https://github.com/JW0914/Wikis/tarball/master">tar</a>   |   <a class="zip_download_link" href="https://github.com/JW0914/Wikis/zipball/master">zip</a></span>
 
