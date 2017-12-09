@@ -107,22 +107,22 @@ Although we have the top20 list, let's delve deeper into the analysis and see wh
 For this we have used the Python Louvain algorithm implementation of community detection. The algorithm found the following communities:
 
 * **Community 0**:
-> peacock, cobra, antelope, rattlesnake, cougar, pufferfish|puffer fish, flamingo, peafowl, jaguar, snow leopard, puma, capybara, whippet, baboon, great white shark, mule, bee, orangutan, giant squid, turkey, crab, komodo dragon, tiger, wildcat, mountain goat, cat, shark, pony, squid, junglefowl, right whale, catfish, moose, unicorn, phalangeriformes|possum, hermit crab, wolf|wolves, okapi, hedgehog, cardinal|cardinal, aphid, jackal, panthera|panther, fennec fox|fennec, asian black bear, vulture, manatee, caterpillar, giraffe, flea, clam, dingo, sockeye salmon, hare, spider, lobster, mollusk, mustang, dinosaur, mantis|praying mantis, wolverine, cougar|puma, shrimp, sawfish, gopher|gopher, coral, dog|huski|dachshund|canine, flycatcher, horse, opossum, geococcyx|roadrunner, yak, serval, penguin, haddock, cicada, black panther, hornet, hammerhead shark, turkey|turkey, portuguese man o' war, tick, tapir, tiger shark, pointer|english pointer, barracuda, eel, 
+peacock, cobra, antelope, rattlesnake, cougar, pufferfish|puffer fish, flamingo, peafowl, jaguar, snow leopard, puma, capybara, whippet, baboon, great white shark, mule, bee, orangutan, giant squid, turkey, crab, komodo dragon, tiger, wildcat, mountain goat, cat, shark, pony, squid, junglefowl, right whale, catfish, moose, unicorn, phalangeriformes|possum, hermit crab, wolf|wolves, okapi, hedgehog, cardinal|cardinal, aphid, jackal, panthera|panther, fennec fox|fennec, asian black bear, vulture, manatee, caterpillar, giraffe, flea, clam, dingo, sockeye salmon, hare, spider, lobster, mollusk, mustang, dinosaur, mantis|praying mantis, wolverine, cougar|puma, shrimp, sawfish, gopher|gopher, coral, dog|huski|dachshund|canine, flycatcher, horse, opossum, geococcyx|roadrunner, yak, serval, penguin, haddock, cicada, black panther, hornet, hammerhead shark, turkey|turkey, portuguese man o' war, tick, tapir, tiger shark, pointer|english pointer, barracuda, eel, 
 
 * **Community 1**:
-> pheasant, pigeon, corvids, nightingale, cockatoo, roundworm, grasshopper, sturgeon, land snail, tarantula, bird, ibis, cuckoo, peregrine falcon, wallaby, swan, duck, viperidae|viper, bumblebee, planarian, worm, warbler, thrush|thrush, rooster, mockingbird, beaver, quail, woodpecker, zebra finch, magpie, elephant, snail, hawk, dove, boa constrictor|constrictor, snake, falcon, boidae|boa, gorilla|silverback, goose, zebra, grebe, lark, carp, mite, albatross, louse, ostrich, octopus, gazelle, wasp, rook|rook, koi, stork, crow, hummingbird, cockatiel, kiwi, sparrow, fowl, gecko, koala, finch, toad, snipe, parakeet, frog|bullfrog, 
+pheasant, pigeon, corvids, nightingale, cockatoo, roundworm, grasshopper, sturgeon, land snail, tarantula, bird, ibis, cuckoo, peregrine falcon, wallaby, swan, duck, viperidae|viper, bumblebee, planarian, worm, warbler, thrush|thrush, rooster, mockingbird, beaver, quail, woodpecker, zebra finch, magpie, elephant, snail, hawk, dove, boa constrictor|constrictor, snake, falcon, boidae|boa, gorilla|silverback, goose, zebra, grebe, lark, carp, mite, albatross, louse, ostrich, octopus, gazelle, wasp, rook|rook, koi, stork, crow, hummingbird, cockatiel, kiwi, sparrow, fowl, gecko, koala, finch, toad, snipe, parakeet, frog|bullfrog, 
 
 * **Community 2**:
-> crocodile, condor, owl, seal, badger|badger, wildebeest, elephant seal, humpback whale, raccoon, weasel, alligator, coyote, egret, cheetah, leopard, jellyfish, calves, vole, raven, grouse, red fox, mouse|mice, reptile, bobcat, marten, prairie dog, grizzly bear, lynx, mink, marmot, ant, panda, polar bear, hyena, 
+crocodile, condor, owl, seal, badger|badger, wildebeest, elephant seal, humpback whale, raccoon, weasel, alligator, coyote, egret, cheetah, leopard, jellyfish, calves, vole, raven, grouse, red fox, mouse|mice, reptile, bobcat, marten, prairie dog, grizzly bear, lynx, mink, marmot, ant, panda, polar bear, hyena, 
 
 * **Community 3**:
-> hyrax, marsupial, bear, bat, red squirrel, tasmanian devil, bison, orca, hippocampus|seahorse, lion, mole|mole, mosquito, chipmunk, stoat, squirrel, brown bear, bull, krill, bald eagle, otter, bison|american buffalo, cattle|cow|calves, coregonus|whitefish, vampire bat, salamander, megabat|fruit bat, crayfish, macaque, earthworm, wren, rodent, salmon, mongoose, bison|buffalo, american, bedbug, chickadee, red deer|elk, walrus, coypu, hippopotamus, giant panda, booby, cockroach, shrew, sea lion, ox, porpoise, meerkat, american black bear, guppy, whale, dung beetle, african wild dog, pinniped, pilot whale, centipede, butterfly, reindeer, scorpion, water buffalo, caribou, 
+hyrax, marsupial, bear, bat, red squirrel, tasmanian devil, bison, orca, hippocampus|seahorse, lion, mole|mole, mosquito, chipmunk, stoat, squirrel, brown bear, bull, krill, bald eagle, otter, bison|american buffalo, cattle|cow|calves, coregonus|whitefish, vampire bat, salamander, megabat|fruit bat, crayfish, macaque, earthworm, wren, rodent, salmon, mongoose, bison|buffalo, american, bedbug, chickadee, red deer|elk, walrus, coypu, hippopotamus, giant panda, booby, cockroach, shrew, sea lion, ox, porpoise, meerkat, american black bear, guppy, whale, dung beetle, african wild dog, pinniped, pilot whale, centipede, butterfly, reindeer, scorpion, water buffalo, caribou, 
 
 * **Community 4**:
-> chicken, antlion, sloth, dragonfly, whooping crane, chameleon, crane|crane, ferret, llama, kangaroo, goldfish, swift, tortoise, hamster, sheep|ram|lamb, lemur, boar, macaw, pike|pike, goat|chamoix, ladybug, fly, dodo, lizard, pythonidae|python, wild boar, camel, rabbit|bunny, iguana, kangaroo rat, parrot, turtle, fox, monitor lizard, eagle, cattle, loon, asp|asp, red deer, toucan, golden eagle, donkey, guinea pig, anaconda, deer, pig, rat, cricket|cricket, skink, gila monster, skunk, locust, 
+chicken, antlion, sloth, dragonfly, whooping crane, chameleon, crane|crane, ferret, llama, kangaroo, goldfish, swift, tortoise, hamster, sheep|ram|lamb, lemur, boar, macaw, pike|pike, goat|chamoix, ladybug, fly, dodo, lizard, pythonidae|python, wild boar, camel, rabbit|bunny, iguana, kangaroo rat, parrot, turtle, fox, monitor lizard, eagle, cattle, loon, asp|asp, red deer, toucan, golden eagle, donkey, guinea pig, anaconda, deer, pig, rat, cricket|cricket, skink, gila monster, skunk, locust, 
 
 * **Community 5**:
-> perch, jay, gull, minnow, porcupine, sea slug, canides, vaquita, bass|bass, cephalopod, red panda, termite, swallow, canid, ape, barnacle, african elephant, dolphin, beluga, tarsier, loris, primate, rainbow trout, moth, cod, tuna, blue whale, dragon, common blackbird|blackbird, mallard, spider monkey, heron, rajiformes|ray, sole|sole, lemming, marmoset, bonobo, beetle, neanderthal, gibbon, stingray, tree frog, trout, slug, lamprey, hominids, monkey, rhinoceros|rhino, fish, starfish, blue jay, bullfrog, rainbow trout|steelhead trout, arthropod|bug, titi, batoidea|ray, wombat, stink bug, manta ray, sperm whale, amphibian, chimpanzee|chimp
+perch, jay, gull, minnow, porcupine, sea slug, canides, vaquita, bass|bass, cephalopod, red panda, termite, swallow, canid, ape, barnacle, african elephant, dolphin, beluga, tarsier, loris, primate, rainbow trout, moth, cod, tuna, blue whale, dragon, common blackbird|blackbird, mallard, spider monkey, heron, rajiformes|ray, sole|sole, lemming, marmoset, bonobo, beetle, neanderthal, gibbon, stingray, tree frog, trout, slug, lamprey, hominids, monkey, rhinoceros|rhino, fish, starfish, blue jay, bullfrog, rainbow trout|steelhead trout, arthropod|bug, titi, batoidea|ray, wombat, stink bug, manta ray, sperm whale, amphibian, chimpanzee|chimp
 
 Although only 5 communities are found, so no hope for a proper biological classification in families, we can observe some interesting patterns.
 For example:
@@ -145,7 +145,7 @@ We have taken the top 20 smartest animals and computed their TF-IDF based on the
 ![alt text](images/mouse.png) ![alt text](images/wolf.png) ![alt text](images/primate.png) 
 ![alt text](images/monkey.png) ![alt text](images/bear.png)
 
-Solarized dark             |  Solarized Ocean
+            |  
 :-------------------------:|:-------------------------:
 ![alt text](images/monkey.png) | ![alt text](images/bear.png)
 
@@ -169,7 +169,7 @@ Plenty of interesting things appeared in the wordclouds ( tf-idf visualisations)
 
    * _non human_
    * _facial expressions_
-   * _animal cognition _
+   * _animal cognition_
    * _decision making_
    * _problem solving_
    * _first time_
@@ -188,7 +188,7 @@ Plenty of interesting things appeared in the wordclouds ( tf-idf visualisations)
    * _critically endangered_
    * _good article_
    * _animal rights_
-   * _intellectual lives__
+   * _intellectual lives_
 
 * Some other types of collocations showed that a lot of people research what they are posting about and talk about relevant sources:
 
@@ -311,9 +311,9 @@ When looking at the last 20 animals in the happines ranks, we notice that they a
 __Top 10 animals__
 
 
-|Animal Cognition||Anthrozoology||Animal Cognition and Emotional Intelligence||All 3 groups|
+|Animal Cognition|Anthrozoology|Animal Cognition and Emotional Intelligence||All 3 groups|
 |----|------------|------------------------------||----------------|
-|dog|dog||dog|dog|
+|dog|dog|dog||dog|
 |bird|elephant|elephant||elephant|
 |cat|bird|whale||bird|
 |chimpanzee|cat|bird||cat|
