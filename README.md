@@ -1,5 +1,5 @@
 <iframe width="854" height="480" src="https://www.youtube.com/embed/tyh07c5I7eU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-
+<span class="credits right"><a class="tar_download_link" href="Explainer_notebook.ipynb">View Explainer Notebook</a>   |   <a class="zip_download_link" href="./Explainer_notebook.ipynb">Download datasets(.zip)</a></span>
 # Motivation
 We want to find out if humans have discovered yet that lab rats and dolphins are smarter than them so our question is: who’s the smartest animal in town? Our team decided that the best way to find out was to search the dark deep web of Facebook.
 
@@ -254,4 +254,4 @@ __Top 10 animals__
 
 
                                                                                
-<span class="credits right"><a class="tar_download_link" href="https://github.com/JW0914/Wikis/tarball/master">tar</a>   |   <a class="zip_download_link" href="https://github.com/JW0914/Wikis/zipball/master">zip</a></span>
+
