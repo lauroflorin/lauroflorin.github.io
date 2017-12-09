@@ -148,53 +148,7 @@ We have taken the top 20 smartest animals and computed their TF-IDF based on the
 ![alt text](images/dog.png) ![alt text](images/chimpanzee.png) ![alt text](images/lion.png)
 ![alt text](images/mouse.png) ![alt text](images/wolf.png) ![alt text](images/primate.png) 
 ![alt text](images/monkey.png) ![alt text](images/bear.png)
-<img src="images/monkey.png" width="425"/> <img src="images/bear.png" width="425"/> 
-
-<div class="ism-slider" data-radio_type="thumbnail" id="my-slider">
-  <ol>
-    <li>
-      <img src="ism/image/slides/_u/1512820529713_443711.png">
-      <div class="ism-caption ism-caption-0">My slide caption text</div>
-    </li>
-    <li>
-      <img src="ism/image/slides/_u/1512820533064_153299.png">
-      <div class="ism-caption ism-caption-0">My slide caption text</div>
-    </li>
-    <li>
-      <img src="ism/image/slides/_u/1512820532626_696752.png">
-      <div class="ism-caption ism-caption-0">My slide caption text</div>
-    </li>
-    <li>
-      <img src="ism/image/slides/_u/1512820532611_956777.png">
-      <div class="ism-caption ism-caption-0">My slide caption text</div>
-    </li>
-    <li>
-      <img src="ism/image/slides/_u/1512820532576_298154.png">
-      <div class="ism-caption ism-caption-0">My slide caption text</div>
-    </li>
-    <li>
-      <img src="ism/image/slides/_u/1512820532406_321343.png">
-      <div class="ism-caption ism-caption-0">My slide caption text</div>
-    </li>
-    <li>
-      <img src="ism/image/slides/_u/1512820532382_915252.png">
-      <div class="ism-caption ism-caption-0">My slide caption text</div>
-    </li>
-    <li>
-      <img src="ism/image/slides/_u/1512820532120_819934.png">
-      <div class="ism-caption ism-caption-0">My slide caption text</div>
-    </li>
-    <li>
-      <img src="ism/image/slides/_u/1512820531245_57777.png">
-      <div class="ism-caption ism-caption-0">My slide caption text</div>
-    </li>
-    <li>
-      <img src="ism/image/slides/_u/1512820531276_790127.png">
-    </li>
-  </ol>
-</div>
-<p class="ism-badge" id="my-slider-ism-badge">
-
+<--<img src="images/monkey.png" width="425"/> <img src="images/bear.png" width="425"/> -->
 
 
 Plenty of interesting things appeared in the wordclouds ( tf-idf visualisations), some worth noting:
