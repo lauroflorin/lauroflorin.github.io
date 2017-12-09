@@ -102,7 +102,7 @@ The animal subgraph follows a powerlaw degree distribution, like many networks i
 |rat	|141|
 |lion	|132|
 
-|Animal|lion|rat|monkey|mouse|ape|cow|bear|wolf|crow|parrot|elephant|whale|chimp|fly|primate|dolphin|fish|cat|dog|
+|Animal|lion|rat|monkey|mouse|ape|cow|bear|wolf|crow|parrot|elephant|whale|chimp|fly|primate|dolphin|fish|cat|dog|bird|
 |------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |Degree|132|141|145|145|146|146|146|146|146|146|146|146|146|146|146|146|146|146|146|146|
 
