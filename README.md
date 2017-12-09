@@ -138,17 +138,9 @@ In the end, it appears that the communities found definitely show some patterns,
 At the same time, an exercise left for the future would be to investigate subcommunities for each of the main communities, which may split the animals into their biological families.
 
 # How do animals differ from each other? TF-IDF and Wordclouds!
-
 We have taken the top 20 smartest animals and computed their TF-IDF based on their posts' text. Here're the Wordclouds!
-![alt text](images/parrot.png) ![alt text](images/dolphin.png)
-![alt text](images/fish.png) ![alt text](images/fly.png)
-![alt text](images/rat.png) ![alt text](images/elephant.png)
-![alt text](images/crow.png) ![alt text](images/whale.png)
-![alt text](images/ape.png) ![alt text](images/cat.png)
-![alt text](images/cattle.png) ![alt text](images/bird.png)
-![alt text](images/dog.png) ![alt text](images/chimpanzee.png) ![alt text](images/lion.png)
-![alt text](images/mouse.png) ![alt text](images/wolf.png) ![alt text](images/primate.png) 
-![alt text](images/monkey.png) ![alt text](images/bear.png)
+
+<iframe src="https://albumizr.com/a/-KNG" scrolling="no" frameborder="0" allowfullscreen width="700" height="400"></iframe>
 
 
 Plenty of interesting things appeared in the wordclouds ( tf-idf visualisations), some worth noting:
@@ -325,4 +317,3 @@ __Top 10 animals__
 
 
 The results are satisfactory, since they are close to the results obtained by analyzing the degree centrality. These animals are either really popular with humans(e.g. pets), or have complex behaviors in the wild (many have passed the Mirror Test).                                                                              
-<iframe src="https://albumizr.com/a/-KNG" scrolling="no" frameborder="0" allowfullscreen width="700" height="400"></iframe>
