@@ -41,9 +41,9 @@ It turns out, people are optimistic when talking about animal intelligence, sinc
 
 * When performing sentiment analysis for each animal, these were the top animals:
 
-![alt text](images/top 20_anthrozoology.png)
-![alt text](images/top 20_animal_cog.png)
-![alt text](images/top 20_animal_cog_and_em.png)
+![alt text](images/top_20_anthrozoology.png)
+![alt text](images/top_20_animal_cog.png)
+![alt text](images/top_20_animal_cog_and_em.png)
 
 
 <span class="credits right"><a class="tar_download_link" href="https://github.com/JW0914/Wikis/tarball/master">tar</a>   |   <a class="zip_download_link" href="https://github.com/JW0914/Wikis/zipball/master">zip</a></span>
