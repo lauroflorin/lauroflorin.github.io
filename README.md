@@ -1,5 +1,9 @@
 <iframe width="854" height="480" src="https://www.youtube.com/embed/tyh07c5I7eU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-<span class="credits right"><a class="tar_download_link" href="http://nbviewer.jupyter.org/urls/lauroflorin.github.io/Explainer_notebook%20(3).ipynb">View Explainer Notebook</a>   |   <a class="zip_download_link" href="https://drive.google.com/uc?export=download&confirm=PCfU&id=12LJdIPyeeYTZ0U-7ZODdFa417IctEwR0">Download datasets(.zip)</a></span>
+<span class="credits right">
+<link rel="stylesheet" href="ism/css/my-slider.css"/>
+<script src="ism/js/ism-2.2.min.js"></script>
+
+<a class="tar_download_link" href="http://nbviewer.jupyter.org/urls/lauroflorin.github.io/Explainer_notebook%20(3).ipynb">View Explainer Notebook</a>   |   <a class="zip_download_link" href="https://drive.google.com/uc?export=download&confirm=PCfU&id=12LJdIPyeeYTZ0U-7ZODdFa417IctEwR0">Download datasets(.zip)</a></span>
 
 # Motivation
 We wanted to find out whether humans have realized that lab rats and dolphins are smarter than them as per Hitchhiker's Guide. So our question is: who’s the smartest animal in town? Our team decided that the best way to find out was to search the deep dark web of Facebook.
@@ -145,6 +149,51 @@ We have taken the top 20 smartest animals and computed their TF-IDF based on the
 ![alt text](images/mouse.png) ![alt text](images/wolf.png) ![alt text](images/primate.png) 
 ![alt text](images/monkey.png) ![alt text](images/bear.png)
 <img src="images/monkey.png" width="425"/> <img src="images/bear.png" width="425"/> 
+
+<div class="ism-slider" data-radio_type="thumbnail" id="my-slider">
+  <ol>
+    <li>
+      <img src="ism/image/slides/_u/1512820529713_443711.png">
+      <div class="ism-caption ism-caption-0">My slide caption text</div>
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1512820533064_153299.png">
+      <div class="ism-caption ism-caption-0">My slide caption text</div>
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1512820532626_696752.png">
+      <div class="ism-caption ism-caption-0">My slide caption text</div>
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1512820532611_956777.png">
+      <div class="ism-caption ism-caption-0">My slide caption text</div>
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1512820532576_298154.png">
+      <div class="ism-caption ism-caption-0">My slide caption text</div>
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1512820532406_321343.png">
+      <div class="ism-caption ism-caption-0">My slide caption text</div>
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1512820532382_915252.png">
+      <div class="ism-caption ism-caption-0">My slide caption text</div>
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1512820532120_819934.png">
+      <div class="ism-caption ism-caption-0">My slide caption text</div>
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1512820531245_57777.png">
+      <div class="ism-caption ism-caption-0">My slide caption text</div>
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1512820531276_790127.png">
+    </li>
+  </ol>
+</div>
+<p class="ism-badge" id="my-slider-ism-badge">
 
 
 
