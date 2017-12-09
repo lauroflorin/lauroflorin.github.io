@@ -15,19 +15,19 @@ We decided that these were the 3 most relevant Groups: Animal Cognition, Anthroz
 
 The posts from 3 Facebook groups:
 
-* Animal Cognition:
+* __Animal Cognition:__
 - 6 956 posts
 - 4726 members
 - 9779 comments
 - 11887 mentioned animals
 
-* Animal Cognition, the Emotional and Intellectual Lives of Animals:
+* __Animal Cognition, the Emotional and Intellectual Lives of Animals:__
 - 10 364 posts
 - 4825 members
 - 7928 comments
 - 15316 mentioned animals
 
-* Anthrozoology:
+* __Anthrozoology:__
 - 7 442 posts
 - 3200 members
 - 13750 comments
