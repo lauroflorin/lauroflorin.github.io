@@ -161,10 +161,10 @@ When looking at the last 20 animals in the happines ranks, we notice that they a
   
   |    |Name                     | Number of comments| Number of posts| Number of Reactions| Total interactions
   |----|----                     |--------------------|---------------|--------------------|--------------------|
-  |Most Posts|Susan Freeman|5514|21555|4059|31128|
-  |Most Reactions|Susan Freeman|5514|21555|4059|31128|
-  |Most Comments|Susan Freeman|5514|21555|4059|31128|
-  |Most Interactions|Susan Freeman|5514|21555|4059|31128|
+  |__Most Posts__|Susan Freeman|5514|21555|4059|31128|
+  |__Most Reactions__|Susan Freeman|5514|21555|4059|31128|
+  |__Most Comments__|Susan Freeman|5514|21555|4059|31128|
+  |__Most Interactions__|Susan Freeman|5514|21555|4059|31128|
   
   * In this group we were surprised to see that there is only one person who does most of the posting, reacting and commenting.
 
@@ -173,10 +173,10 @@ When looking at the last 20 animals in the happines ranks, we notice that they a
   
   |    |Name                     | Number of comments| Number of posts| Number of Reactions| Total interactions
   |----|----                     |--------------------|---------------|--------------------|--------------------|
-  |Most Posts|Manuel Fernandez Albores|270|1656|832|2758|
-  |Most Reactions|Gala Argent|930|344|2994|4268|
-  |Most Comments|Gala Argent|930|344|2994|4268|
-  |Most Interactions|Piers Locke|1178|1486|1642|4306|
+  |__Most Posts__|Manuel Fernandez Albores|270|1656|832|2758|
+  |__Most Reactions__|Gala Argent|930|344|2994|4268|
+  |__Most Comments__|Gala Argent|930|344|2994|4268|
+  |__Most Interactions__|Piers Locke|1178|1486|1642|4306|
   
 * In this group, we weren't surprised to see that the top poster was _Manuel Fernandez Albores_, since most of the collocations we found when analysing the text were in Spanish and he has a Spanish-sounding name.
 
@@ -186,10 +186,10 @@ When looking at the last 20 animals in the happines ranks, we notice that they a
 
   |    |Name                     | Number of comments| Number of posts| Number of Reactions| Total interactions
   |----|----                     |--------------------|---------------|--------------------|--------------------|
-  |Most Posts|Gala Argent|467|172|1744|2383|
-  |Most Reactions|LizDonguri Capaldi Capybara|268|155|3134|3557|
-  |Most Comments|Dennis Low|799|63|86|948|
-  |Most Interactions|LizDonguri Capaldi Capybara|268|155|3134|3557|
+  |__Most Posts__|Gala Argent|467|172|1744|2383|
+  |__Most Reactions__|LizDonguri Capaldi Capybara|268|155|3134|3557|
+  |__Most Comments__|Dennis Low|799|63|86|948|
+  |__Most Interactions__|LizDonguri Capaldi Capybara|268|155|3134|3557|
  
 * We have found one person who was in the top members in a group and three new persons, which may suggest that most people are only active in one group of their choice.
 
