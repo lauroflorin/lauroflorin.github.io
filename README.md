@@ -240,7 +240,7 @@ When looking at the last 20 animals in the happines ranks, we notice that they a
 ![alt text](images/lex_disp_animal_cog_and_em_ed.png)
 
 
-  # Top posters in each group
+# Top posters in each group
   
   * We checked for the members with the most posts, reactions and overall interactions (posts + reactions + comments) to get more info on how the people in the group behave.
   
